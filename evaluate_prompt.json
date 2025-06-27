@@ -1,0 +1,17 @@
+{
+    "paraphrase_techniques" : {
+        "Mathematical Expression Transformation": "Modify mathematical expressions while preserving their meaning.",
+        "Text Reduction": "Remove unnecessary details while retaining key information.",
+        "Text Rewriting": "Rephrase the problem using different linguistic styles (formal vs. informal).",
+        "Sentence Order Modification": "Change the order of the given statements while keeping the problem intact.",
+        "Sentence Merging": "Combine multiple sentences into a single, coherent statement.",
+        "Metaphorical Representation": "Use analogies or metaphors to describe the problem more intuitively.",
+        "Syntactic Transformation": "Change the sentence structure while maintaining the original meaning.",
+        "Object Substitution": "Important: Do NOT change any numerical values, expressions, or mathematical structure. Only the objects or subjects (e.g., people, items, context) may be replaced with equivalent ones. Replace objects or subjects in the problem with different but equivalent ones while keeping the numerical values (such as constants and radicals) unchanged.",
+        "Variable Renaming": "Change variable names without altering the logic of the problem.",
+        "Contextual Rewriting": "Change the context or background setting of the problem while keeping its logic intact.",
+        "Step-by-Step Breakdown": "Decompose a complex problem into multiple smaller steps.",
+        "Information Segmentation": "Split a single sentence into multiple statements for clarity."
+    },
+    "prompt": "You're given a math problem and its paraphrased version. Your task is to evaluate whether the paraphrased problem is logically valid and matches the described technique.\n\n--- Original Problem ---\n{original}\n\n--- Paraphrased Technique ---\nTechnique: {technique}\nDescription: {description}\nExample: \nOriginal: {example_original}\nParaphrased: {example}\n\n--- Paraphrased Problem ---\n{paraphrased_problem}\n\nPlease answer:\n1. Is the paraphrased problem logically consistent with the original? (Yes/No)\n2. Does the paraphrased problem match the described technique? (Yes/No)\n3. Brief justification.\nReturn your answer in JSON format like:\n{\n  \"logical_consistency\": \"Yes\",\n  \"technique_match\": \"Yes\",\n  \"justification\": \"...\"\n}\n\nIf the paraphrased technique does not visibly change the original problem, but this is because the original already aligns with the paraphrase technique, answer \"Yes\" for technique_match. If any numerical values are changed in a way that affects the problem’s meaning or answer, answer \"No\" for logical_consistency."
+}

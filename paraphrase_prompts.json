@@ -1,0 +1,32 @@
+{
+    "paraphrase_techniques_prompts" : {
+        "Mathematical Expression Transformation": "Modify mathematical expressions while preserving their meaning.",
+        "Text Reduction": "Remove unnecessary details while retaining key information.",
+        "Text Rewriting": "Rephrase the problem using different linguistic styles (formal vs. informal).",
+        "Sentence Order Modification": "Change the order of the given statements while keeping the problem intact.",
+        "Sentence Merging": "Combine multiple sentences into a single, coherent statement.",
+        "Metaphorical Representation": "Use analogies or metaphors to describe the problem more intuitively.",
+        "Syntactic Transformation": "Change the sentence structure while maintaining the original meaning.",
+        "Object Substitution": "Important: Do NOT change any numerical values, expressions, or mathematical structure. Only the objects or subjects (e.g., people, items, context) may be replaced with equivalent ones. Replace objects or subjects in the problem with different but equivalent ones while keeping the numerical values (such as constants and radicals) unchanged.",
+        "Variable Renaming": "Change variable names without altering the logic of the problem.",
+        "Contextual Rewriting": "Change the context or background setting of the problem while keeping its logic intact.",
+        "Step-by-Step Breakdown": "Decompose a complex problem into multiple smaller steps.",
+        "Information Segmentation": "Split a single sentence into multiple statements for clarity."
+    },
+    "paraphrase_examples" : {
+        "original": "How many ounces of pure water must be added to $30$ ounces of a $30\\%$ solution of acid to yield a solution that is $20\\%$ acid?",
+        "Mathematical Expression Transformation": "How many ounces of pure water need to be mixed with $30$ ounces of a solution that contains $30\\%$ acid in order to produce a solution that has an acid concentration of $20\\%$?",
+        "Text Reduction": "How many ounces of pure water must be added to $30$ ounces of a $30\\%$ acid solution to make it $20\\%$ acid?",
+        "Text Rewriting": "**Formal Style:**  \nDetermine the quantity of pure water, measured in ounces, that needs to be incorporated into a $30$ ounce solution containing $30\\%$ acid in order to produce a resultant solution that contains $20\\%$ acid.\n\n**Informal Style:**  \nHow much pure water do you need to mix with $30$ ounces of a $30\\%$ acid solution to make it a $20\\%$ acid solution?",
+        "Sentence Order Modification": "To yield a solution that is $20\\%$ acid, how many ounces of pure water must be added to $30$ ounces of a $30\\%$ solution of acid?",
+        "Sentence Merging": "How many ounces of pure water must be added to $30$ ounces of a $30\\%$ acid solution in order to create a new solution that has an acid concentration of $20\\%$?",
+        "Metaphorical Representation": "Imagine you have a large pot filled with a thick soup that is 30% spice. The pot contains 30 ounces of this spicy soup. You want to create a milder version of the soup that only has 20% spice. To achieve this, you need to add pure water to the pot. How many ounces of pure water should you pour in to dilute the spicy soup down to the desired flavor?",
+        "Syntactic Transformation": "What is the amount of pure water, in ounces, that needs to be added to $30$ ounces of a $30\\%$ acid solution in order to create a solution that has an acid concentration of $20\\%$?",
+        "Object Substitution": "How many ounces of pure juice must be added to $30$ ounces of a $30\\%$ mixture of syrup to yield a mixture that is $20\\%$ syrup?",
+        "Variable Renaming": "How many ounces of pure liquid must be added to $30$ ounces of a $30\\%$ mixture of acid to yield a mixture that is $20\\%$ acid?",
+        "Contextual Rewriting": "In a laboratory, a chemist has $30$ ounces of a $30\\%$ saline solution. To dilute this solution to a concentration of $20\\%$ saline, how many ounces of pure water must be added?",
+        "Step-by-Step Breakdown": "To determine how many ounces of pure water must be added to a solution, we can break the problem down into smaller, manageable steps:\n\n1. Identify the current amount of acid in the solution. This involves calculating what 30% of 30 ounces is.\n2. Define the desired concentration of the new solution, which is 20% acid.\n3. Let \\( x \\) represent the amount of pure water to be added.\n4. Establish the total volume of the new solution after adding \\( x \\) ounces of water.\n5. Set up an equation that represents the amount of acid in the new solution, based on the total volume and the desired concentration.\n6. Solve for \\( x \\) to find out how many ounces of pure water need to be added.",
+        "Information Segmentation": "We have a solution that contains acid. This solution is $30$ ounces in total. The concentration of acid in this solution is $30\\%$. \n\nWe want to dilute this solution. To do this, we will add pure water. \n\nThe goal is to create a new solution that has a concentration of $20\\%$ acid. \n\nThe question is: How many ounces of pure water need to be added to achieve this new concentration?"
+    }
+}
+
